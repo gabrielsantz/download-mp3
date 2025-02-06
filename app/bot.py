@@ -51,5 +51,5 @@ def baixar_lista_musicas(arquivo_txt):
         print(f'Baixando: {musica}')
         baixar_musica(musica)
 
-arquivo_musicas = "musicas.txt"
+arquivo_musicas = "app/input/musicas.txt"
 baixar_lista_musicas(arquivo_musicas)
